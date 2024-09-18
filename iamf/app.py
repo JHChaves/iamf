@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from fastapi import FastAPI, HTTPException
 
-from iamf.schemas.schemas import (
+from iamf.schemas import (
     Message,
     UserDB,
     UserList,
